@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
+  background-color: #eee9de;
   line-height: 1.5;
 }
 
@@ -10,5 +10,38 @@ html {
 
 p {
   font-family: 'Lato', sans-serif;
-  display: inline-bloack;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+section {
+  padding: auto;
+}
+
+div {
+  display: inline-block;
+  margin: auto;
+  max-width: none;
+}
+img {
+  padding: inherit;
+  margin: auto;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #666;
+}
+
+a {
+  display: inline-block;
+  background-color: #eee9de;
+  border: .3em;
+  text-decoration: none;
+  padding: .6em .5em .75em;
+  font-size: 1.125rem;
+  margin: 0 auto;
+  font-weight: bold;
+  border-radius: .3em;
+  font-family: 'Lato', sans-serif;
 }
