@@ -8,10 +8,16 @@ html {
   box-sizing: inherit;
 }
 
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
 p {
   font-family: 'Lato', sans-serif;
   display: inline-block;
   margin: 0 auto;
+  max-width: 20em;
 }
 
 section {
@@ -23,10 +29,12 @@ div {
   margin: auto;
   max-width: none;
 }
+
 img {
   padding: inherit;
   margin: auto;
   display: inline-block;
+  width: 100%;
 }
 
 a:hover {
@@ -36,12 +44,15 @@ a:hover {
 a {
   display: inline-block;
   background-color: #eee9de;
+  color: #333;
   border: .3em;
+  border-width: .2em;
+  border-style: solid;
   text-decoration: none;
   padding: .6em .5em .75em;
   font-size: 1.125rem;
   margin: 0 auto;
   font-weight: bold;
-  border-radius: .3em;
+  border-radius: .6em;
   font-family: 'Lato', sans-serif;
 }
