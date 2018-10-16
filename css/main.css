@@ -11,6 +11,8 @@ html {
 h2 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 p {
@@ -21,20 +23,28 @@ p {
 }
 
 section {
-  padding: auto;
+  padding: .3em;
+  text-align: center;
 }
 
 div {
   display: inline-block;
-  margin: auto;
-  max-width: none;
+  margin: .3em;
+  max-width: 20em;
+}
+
+.img {
+  display: inline-block;
+  max-width: 20em;
 }
 
 img {
   padding: inherit;
-  margin: auto;
-  display: inline-block;
+  margin: .3em;
+  display: block;
   width: 100%;
+  max-width: 30em;
+  padding: .3em;
 }
 
 a:hover {
