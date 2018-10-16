@@ -13,13 +13,17 @@ h2 {
   font-weight: bold;
   margin: 0 auto;
   display: inline-block;
+  vertical-align: middle;
+  text-align: left;
 }
 
 p {
   font-family: "Lato", sans-serif;
   display: inline-block;
   margin: 0 auto;
-  max-width: 20em;
+  max-width: 40em;
+  vertical-align: middle;
+  text-align: left;
 }
 
 section {
@@ -30,20 +34,24 @@ section {
 div {
   display: inline-block;
   margin: .3em;
-  max-width: 20em;
+  max-width: 40em;
+  vertical-align: middle;
+  text-align: left;
 }
 
 .img {
-  display: inline-block;
-  max-width: 20em;
+  width: 100%;
+  vertical-align: middle;
+  text-align: left;
+  max-width: 40em;
 }
 
 img {
-  margin: .3em;
-  display: block;
-  width: 100%;
-  max-width: 30em;
   padding: .3em;
+  display: block;
+  max-width: 40em;
+  margin: .3em;
+  width: 100%;
 }
 
 a:hover {
