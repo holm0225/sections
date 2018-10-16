@@ -9,14 +9,14 @@ html {
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   margin: 0 auto;
   display: inline-block;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   display: inline-block;
   margin: 0 auto;
   max-width: 20em;
@@ -39,7 +39,6 @@ div {
 }
 
 img {
-  padding: inherit;
   margin: .3em;
   display: block;
   width: 100%;
@@ -64,5 +63,16 @@ a {
   margin: 0 auto;
   font-weight: bold;
   border-radius: .6em;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin: 1.5rem;
+}
+
+.btn {
+  margin: .3em;
 }
