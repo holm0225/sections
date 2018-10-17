@@ -10,6 +10,7 @@ html {
 
 section {
   padding: 2em;
+  display: inline-block;
 }
 
 body {
@@ -22,10 +23,8 @@ body {
 h2 {
   font-family: Lato, sans-serif;
   font-weight: bold;
-  margin: 1.5rem;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: left;
+  padding: .2em 0;
+  font-size: 1.75em;
 }
 
 div {
@@ -40,6 +39,7 @@ img {
   display: block;
   margin: .75em;
   width: 100%;
+  display: block;
 }
 
 p {
@@ -48,6 +48,7 @@ p {
   margin: 0 0 1.5em;
   width: 100%;
   max-width: 25em;
+  font-weight: bold;
 }
 
 section {
@@ -60,27 +61,6 @@ div {
   max-width: 25em;
   text-align: left;
   vertical-align: middle;
-}
-
-.img {
-  width: 100%;
-  vertical-align: middle;
-  max-width: 40em;
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  padding: .3em;
-  display: block;
-  margin: 0;
-  width: 100%;
-}
-
-a:hover {
-  background-color: #666;
-  color: #eee9de;
-  border: 3px solid #666;
 }
 
 a {
@@ -97,6 +77,12 @@ a {
   color: #333;
 }
 
+a:hover {
+  background-color: #666;
+  color: #eee9de;
+  border: 3px solid #666;
+}
+
 .btn {
   margin: 1.5rem;
   max-width: 25em;
@@ -104,6 +90,5 @@ a {
 }
 
 .text {
-  margin: 1.5rem;
-  display: inline-block;
+  padding: .5em 1em;
 }
