@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   line-height: 1.5;
+  font-family: Lato, sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,8 +10,7 @@ html {
 }
 
 section {
-  padding: 2em;
-  display: inline-block;
+  padding-bottom: 1.8em;
 }
 
 body {
@@ -21,10 +21,7 @@ body {
 }
 
 h2 {
-  font-family: Lato, sans-serif;
-  font-weight: bold;
   padding: .2em 0;
-  font-size: 1.75em;
 }
 
 div {
@@ -35,32 +32,17 @@ div {
 }
 
 img {
-  padding: 2em 1em .2em;
-  display: block;
-  margin: .75em;
   width: 100%;
+  margin-top: .75em;
+  padding: 2em 1em .2em;
   display: block;
 }
 
 p {
-  font-family: Lato, sans-serif;
+  max-width: 25em;
+  width: 100%;
   display: inline-block;
   margin: 0 0 1.5em;
-  width: 100%;
-  max-width: 25em;
-  font-weight: bold;
-}
-
-section {
-  padding: 2em;
-  text-align: center;
-}
-
-div {
-  display: inline-block;
-  max-width: 25em;
-  text-align: left;
-  vertical-align: middle;
 }
 
 a {
@@ -72,7 +54,6 @@ a {
   text-decoration: none;
   padding: .5em .75em;
   font-size: 1.2em;
-  font-weight: bold;
   font-family: Lato, sans-serif;
   color: #333;
 }
@@ -84,11 +65,11 @@ a:hover {
 }
 
 .btn {
-  margin: 1.5rem;
-  max-width: 25em;
   text-align: left;
+  margin-bottom: 1em;
+  max-width: 25em;
 }
 
-.text {
+.body {
   padding: .5em 1em;
 }
